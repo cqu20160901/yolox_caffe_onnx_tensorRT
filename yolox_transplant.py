@@ -129,9 +129,9 @@ def postprocess(out, img_h, img_w):
     gridIndex = -2
 
     for index in range(headNum):
-        cls = output[index * headNum + 0]
-        reg = output[index * headNum + 1]
-        ce = output[index * headNum + 2]
+        cls = output[index * 3 + 0]
+        reg = output[index * 3 + 1]
+        ce = output[index * 3 + 2]
 
         for h in range(mapSize[index][0]):
             for w in range(mapSize[index][1]):
