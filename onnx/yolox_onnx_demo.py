@@ -179,7 +179,7 @@ def detect(imgfile, model_path):
         cv2.putText(orig, title, ptext, cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2, cv2.LINE_AA)
 
     cv2.imwrite('./result_onnx.jpg', orig)
-    # cv2.imshow("test", origimg)
+    # cv2.imshow("test", orig)
     # cv2.waitKey(0)
 
 
