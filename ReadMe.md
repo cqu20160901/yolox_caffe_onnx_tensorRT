@@ -14,4 +14,3 @@ tensorRT_yolox：TensorRT版本模型、测试图像、测试结果、测试demo
 # 测试结果
 
 ![image](https://github.com/cqu20160901/yolox_caffe_onnx/blob/master/caffe_yolox/result.jpg)
-
