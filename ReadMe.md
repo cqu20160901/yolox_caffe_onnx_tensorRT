@@ -2,10 +2,12 @@
 
 yolox-nano_caffe_onnx版，后处理用python语言和C++形式进行改写，便于移植不同平台；为了在不同平台之间进行部署，对SiLU和Fuse进行了替换。
 
-# 所需环境
-1、用caffe版本demo需要caffe环境
+caffe_yolox：去除维度变换层的prototxt、caffeModel、测试图像、测试结果、测试demo脚本
 
-2、用onnx版本demo需要python环境
+onnx_yolox：onnx模型、测试图像、测试结果、测试demo脚本
+
+tensorRT_yolox：TensorRT版本模型、测试图像、测试结果、测试demo脚本、onnx模型、onnx2tensorRT脚本(tensorRT7)
+
 
 # 测试结果
 
